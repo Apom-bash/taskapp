@@ -1,0 +1,381 @@
+body{
+    max-width: 100%;
+    background-color: hsl(219, 59%, 13%);
+          background-image: radial-gradient(500px circle at 0% 0%,
+              hsl(218, 41%, 35%) 15%,
+              hsl(218, 41%, 30%) 35%,
+              hsl(218, 41%, 20%) 75%,
+              hsl(218, 41%, 19%) 80%,
+              transparent 100%),
+            radial-gradient(1250px circle at 100% 100%,
+              hsl(218, 41%, 45%) 15%,
+              hsl(218, 41%, 30%) 35%,
+              hsl(218, 41%, 20%) 75%,
+              hsl(218, 41%, 19%) 80%,
+              transparent 100%);
+    overflow: hidden;
+        }
+        
+
+.first{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+    background: radial-gradient(#241d85, #524fe9,transparent 60%);
+    backdrop-filter:saturate(150%) blur(40px); 
+          overflow: hidden;
+    position: relative;
+    position: absolute;
+    top: 0rem; left:0rem;
+    z-index: 1;
+    
+}
+.second{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+    background: radial-gradient(#241d85, #524fe9,transparent 60%);
+    backdrop-filter:saturate(150%) blur(40px); 
+          overflow: hidden;
+    position: relative;
+    position: absolute;
+    top: 15rem; left:0rem;
+    z-index: 1;
+}
+.third{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+    background: radial-gradient(#241d85, #524fe9,transparent 60%);
+    backdrop-filter:saturate(150%) blur(40px); 
+          overflow: hidden;
+    position: relative;
+    position: absolute;
+    top: 30rem; left:0rem;
+    z-index: 1;
+}
+  
+
+.forth{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+    background: radial-gradient(#241d85, #524fe9,transparent 60%);
+    backdrop-filter:saturate(150%) blur(40px); 
+          overflow: hidden;
+    position: relative;
+    position: absolute;
+    top:0rem; left:15rem;
+    z-index: 0.8;
+
+}
+.fifty{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+    background: radial-gradient(#241d85, #524fe9,transparent 60%);
+    backdrop-filter:saturate(150%) blur(40px); 
+          overflow: hidden;
+    position: relative;
+    position: absolute;
+    top: 15rem; left:15rem;
+    z-index: 1;
+}
+.sixty{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+    background: radial-gradient(#241d85, #524fe9,transparent 60%);
+    backdrop-filter:saturate(150%) blur(40px); 
+          overflow: hidden;
+    position: relative;
+    position: absolute;
+    top: 30rem; left:15rem;
+    z-index: 1;
+}
+.seventy{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+    background: radial-gradient(#241d85, #524fe9,transparent 60%);
+    backdrop-filter:saturate(150%) blur(40px); 
+          overflow: hidden;
+    position: relative;
+    position: absolute;
+    top: 0rem; left:30rem;
+    z-index: 0.8;
+}
+.eighty{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+    background: radial-gradient(#241d85, #524fe9,transparent 60%);
+    backdrop-filter:saturate(150%) blur(40px); 
+          overflow: hidden;
+    position: relative;
+    position: absolute;
+    top: 15rem; left:30rem;
+    z-index: 1;
+}
+.ninety{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+    background: radial-gradient(#241d85, #524fe9,transparent 60%);
+    backdrop-filter:saturate(150%) blur(40px); 
+          overflow: hidden;
+    position: relative;
+    position: absolute;
+    top: 30rem; left:30rem;
+    z-index: 0.8;
+}
+.tenty{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+    background: radial-gradient(#241d85, #524fe9,transparent 60%);
+    backdrop-filter:saturate(150%) blur(40px); 
+          overflow: hidden;
+    position: relative;
+    position: absolute;
+    top: 0rem; left:45rem;
+    z-index: 1; 
+}
+.eleventy{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+    background: radial-gradient(#241d85, #524fe9,transparent 60%);
+    backdrop-filter:saturate(150%) blur(40px); 
+          overflow: hidden;
+    position: relative;
+    position: absolute;
+    top: 15rem; left:45rem;
+    z-index: 1;
+}
+.twelve{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+    background: radial-gradient(#241d85, #524fe9,transparent 60%);
+    backdrop-filter:saturate(150%) blur(40px); 
+          overflow: hidden;
+    position: relative;
+    position: absolute;
+    top: 30rem; left:45rem;
+    z-index: 1;  
+}
+.thirteen{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+    background: radial-gradient(#241d85, #524fe9,transparent 60%);
+    backdrop-filter:saturate(150%) blur(40px); 
+          overflow: hidden;
+    position: relative;
+    position: absolute;
+    top: 0rem; left:60rem;
+    z-index: 1;
+}
+.fourteen{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+    background: radial-gradient(#241d85, #524fe9,transparent 60%);
+    backdrop-filter:saturate(150%) blur(40px); 
+          overflow: hidden;
+    position: relative;
+    position: absolute;
+    top: 15rem; left:60rem;
+    z-index: 1;
+}
+.fifteen{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+    background: radial-gradient(#241d85, #524fe9,transparent 60%);
+    backdrop-filter:saturate(150%) blur(40px); 
+          overflow: hidden;
+    position: relative;
+    position: absolute;
+    top: 30rem; left:60rem;
+    z-index: 1;
+}
+.sixteen{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+    background: radial-gradient(#241d85, #524fe9,transparent 60%);
+    backdrop-filter:saturate(150%) blur(40px); 
+          overflow: hidden;
+    position: relative;
+    position: absolute;
+    top: 0rem; left:75rem;
+    z-index: 1;
+}
+.seventeen{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+    background: radial-gradient(#241d85, #524fe9,transparent 60%);
+    backdrop-filter:saturate(150%) blur(40px); 
+          overflow: hidden;
+    position: relative;
+    position: absolute;
+    top: 15rem; left:75rem;
+    z-index: 1;
+}
+.eighteen{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+    background: radial-gradient(#241d85, #524fe9,transparent 60%);
+    backdrop-filter:saturate(150%) blur(40px); 
+          overflow: hidden;
+    position: relative;
+    position: absolute;
+    top: 30rem; left:75rem;
+    z-index: 1;
+}
+main{
+    background-color: #fff;
+    width: 50%;
+    margin: auto;
+    border-radius: 6px;
+    backdrop-filter: saturate(200%) blur(25px);
+    z-index: 10;
+    position: relative;
+    top: 5rem;
+}
+.section1{
+    border-radius: 6px;
+    
+    
+}
+
+.top_tool{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 2px ;
+    border-radius: 6px;    
+}
+.top_tool h1{
+    color: black;
+    font-weight: bolder;
+    padding: 0 1rem;
+    align-items: center;
+}
+.top_tool button{
+    color: #fff;
+    background-color: rgb(4, 136, 4);
+    padding: 1.0rem 1.0rem;
+    border-radius: 20%;
+    border: rgb(221, 252, 221) solid;
+    margin: 0 1rem;
+    transform: scale(1.1);
+}
+ .top_tool button{
+    transition: all 2s ease-in-out;
+    list-style-type: none;
+}
+ .top_tool button :hover{
+    transform: scale(1.3);
+    background-color: red;
+}
+
+
+.form{
+    background-color: rgb(4, 136, 4);
+    padding: 0 0.8rem;
+    color: #fff;
+}
+.datetime input{
+    width: 100%;
+  padding: 9px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 12px;
+  margin: 0rem 0rem 2rem 0rem;
+  transition: all;
+}
+.date input :focus{
+    border: 3px solid rgb(0, 0, 0);
+}
+.tasktext textarea{
+    border-radius: 10px;
+    width:100%;  
+}
+.reminder input{
+    width: 20%;
+    border-radius: 12px ;
+}
+.form button{
+    width: 100%;
+    background-color:black;
+    color: #fff;
+    padding: 0.5rem 0;
+    margin: 2rem 0;
+}
+.form button{
+    list-style-type: none;
+}
+.form button:hover{
+    background-color: red;
+    border: none;
+}
+.bottom_tool h1{
+    text-align: center;
+    color: rgb(201, 135, 14);
+}
+.copy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copy button{
+    width: 5rem;
+    background-color: red;
+    color: #fff;
+    border: #fff solid;
+    border-radius: 12px;
+    padding:0.8rem 0.8rem ;
+    font-weight: bolder;
+}
+.copy span{
+    text-align: center;
+    color:rgb(4, 136, 4) ;
+    margin: 0 auto;
+    
+}
+.copy span b{
+    color: black;
+    text-align: center;
+}
+.taskarea i{
+    margin-right: 2rem;
+    font-size: 1rem;
+    color: blue;
+}
+.taskInd{
+    padding: rem 0;
+}
+
+
+@media(max-width:760px){
+    .bgd_style{
+        display: none;
+       
+    }
+  
+    
+}
+@media (max-width:414px) {
+    main {
+            width: 100%;
+            
+        }
+}

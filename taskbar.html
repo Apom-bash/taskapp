@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./taskbar.css">
+</head>
+
+<body>
+    <section class="bgd_style">
+    <div class="first">
+
+    </div>
+    <div class="second">
+
+    </div>
+    <div class="third">
+
+    </div>
+    <div class="forth">
+
+    </div>
+    <div class="fifty"></div>
+    <div class="sixty"></div>
+    <div class="seventy"></div>
+    <div class="eighty"></div>
+    <div class="ninety"></div>
+    <div class="tenty"></div>
+    <div class="eleventy"></div>
+    <div class="twelve"></div>
+    <div class="thirteen"></div>
+    <div class="fourteen"></div>
+    <div class="fifteen"></div>
+    <div class="sixteen"></div>
+    <div class="seventeen"></div>
+    <div class="eighteen"></div>
+</section>
+    
+        <main>
+            
+            <section class="section1">
+                <div class="top_tool">
+                    <h1><b>Taskapp</b></h1>
+                    <button id="topbtn" onclick ="closeForm()">Close</button>
+                </div>
+                <form action="submit.html" class="form" id="form">
+                    <div class="tasktext">
+                        <br><label for="comment">Task</label></br>
+                        <textarea id="story" onkeydown="click()" name="comment" cols="70" rows="2.5"></textarea>
+                    </div>
+                    <div class="datetime">
+                        <br> <label for="Date/Time:">Date/Time</label></br>
+                        <input type="datetime-local" id="date" name="D.O.B" placeholder="Enter date/time">
+
+                    </div>
+                    <div class="reminder">
+                        Set Reminder<input type="radio" id="gender" name="gender" placeholder="">
+                    </div>
+                    <button type="button" id="taskBtn"> submit </button>
+
+
+                </form>
+            </section>
+            <div class="taskarea" id="taskArea" style="margin: 2rem 2rem">
+
+                <div class="taskInd">
+                    <i>Lorem ipsum dolor sit amet.</i>
+                    <small>20/2/2020</small>
+                </div>
+            </div>
+            <div class="bottom_tool">
+                <h1>No Date</h1>
+
+                <div class="copy">
+                    <button type="submit" id="clrTask">Clear</button>
+
+                    <span>&copy;copyright of<b>EsqDipaula <span id="year">2022</span></b> </span>
+                </div>
+            </div>
+
+        </main>
+   
+
+    <script src="./taskbar.js">
+
+
+    </script>
+</body>
+
+</html>
